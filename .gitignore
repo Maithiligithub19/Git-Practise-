@@ -1,0 +1,14 @@
+# Files Git should ignore
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Editor stuff
+.vscode/
+*.tmp
+
+# Don't need these
+*.log
+node_modules/
+build/
