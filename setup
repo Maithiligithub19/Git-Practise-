@@ -1,6 +1,30 @@
-In gitbash -
+# Git Setup Guide
 
-1. $ git config --global user.name "Maithiligithub19"
-2. $ git config --global user.email "maithili.sude21@pccoepune.org"
-3. $ git config --list
+## First Time Git Setup (Do This Once)
+
+Before using Git, you need to tell it who you are. This is like signing your name on your work.
+
+### Step 1: Set Your Name
+```bash
+git config --global user.name "Maithiligithub19"
+```
+**What it does:** Tells Git your name. This name will show up when you save changes.
+
+### Step 2: Set Your Email
+```bash
+git config --global user.email "maithili.sude21@pccoepune.org"
+```
+**What it does:** Tells Git your email. GitHub uses this to connect your work to your account.
+
+### Step 3: Check Your Settings
+```bash
+git config --list
+```
+**What it does:** Shows all your Git settings to make sure everything is correct.
+
+## Why This Matters
+- Your name and email appear on every save (commit)
+- GitHub knows it's really you making changes
+- Other people can see who made what changes
+- You only need to do this setup once on each computer
 
