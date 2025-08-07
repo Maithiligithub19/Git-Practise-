@@ -1,0 +1,6 @@
+In gitbash -
+
+1. $ git config --global user.name "Maithiligithub19"
+2. $ git config --global user.email "maithili.sude21@pccoepune.org"
+3. $ git config --list
+
